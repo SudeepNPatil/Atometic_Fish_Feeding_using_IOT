@@ -1,15 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import { GiCirclingFish } from "react-icons/gi";
-import { IoSunnyOutline } from "react-icons/io5";
-import { FaMoon } from "react-icons/fa";
+import Toggle_button from "./Toggle_button_Dark_and_light_mode";
 
 export default function Header() {
-
-    const [theam, settheam] = useState(localStorage.getItem("theam") || "light")
-
-    /*  const handletheam = () => {
-        
-     } */
 
 
     return (
@@ -23,13 +16,9 @@ export default function Header() {
 
             <p className="text-xl font-semibold ">Monitor</p>
 
-            <p className="text-xl font-semibold ">contact</p>
+            <p className="text-xl font-semibold ">Contact</p>
 
-            <button className="font-semibold mr-24 bg-white shadow-red-50 rounded-3xl border w-16 h-8">
-                <IoSunnyOutline size={20} className="inline-block" />
-                <FaMoon size={15} className="inline-block ml-2" />
-            </button>
-
+            <Toggle_button />
 
         </div>
     )
