@@ -35,11 +35,6 @@ Built collaboratively by **Sudeep Patil** and **Shreeraksha**.
 
 ---
 
-## Architecture
-
-```plaintext
-Frontend (React) ⇄ Node.js Backend ⇄ ESP32 (MicroPython) ```
-
 ### Screeshots
 
 <img width="1343" height="636" alt="Autometic-fish-feeding" src="https://github.com/user-attachments/assets/22371a8f-5d48-45eb-88db-759dd8122eb9" />
